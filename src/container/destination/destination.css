@@ -1,0 +1,104 @@
+.taw__destination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.taw__destination-container_content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.taw__destination-container_content p {
+	color: var(--TEXT-CLR, #5e6282);
+	text-align: center;
+	font-family: var(--font-link);
+	font-size: 1.125rem;
+	font-weight: 600;
+}
+
+.taw__destination-container_content h1 {
+	color: var(--3rd, #14183e);
+	text-align: center;
+	font-family: var(--font-family);
+	font-size: 3.125rem;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.taw__destination-container_card {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url("../../assets/Decore2.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	padding: 2rem;
+}
+
+.taw__destination-card {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background-repeat: no-repeat;
+
+	width: 19.625rem;
+	height: 28.5625rem;
+	border-radius: 1.5rem;
+	box-shadow: 0px 1.85185px 3.14815px 0px rgba(0, 0, 0, 0),
+		0px 8.14815px 6.51852px 0px rgba(0, 0, 0, 0.01),
+		0px 20px 13px 0px rgba(0, 0, 0, 0.01),
+		0px 38.51852px 25.48148px 0px rgba(0, 0, 0, 0.01),
+		0px 64.81481px 46.85185px 0px rgba(0, 0, 0, 0.02),
+		0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+	margin: 0 1.5rem;
+}
+
+.taw__destination-card_content {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+
+	width: 100%;
+	height: 8.125rem;
+	border-radius: 0 0 1.5rem 1.5rem;
+	background: #fff;
+	padding: 0.7rem 1.4rem 2rem 1.4rem;
+}
+
+.taw__destination-card_content-location {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex: 1;
+	width: 100%;
+}
+
+.taw__destination-card_content-location p {
+	color: var(--TEXT-CLR, #5e6282);
+	font-family: var(--font-link);
+	font-size: 1.125rem;
+	font-weight: 500;
+	line-height: 124.5%;
+}
+
+.taw__destination-card_content-day {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 0.7rem;
+}
+
+.taw__destination-card_content-day p {
+	color: var(--TEXT-CLR, #5e6282);
+	font-family: var(--font-link);
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: 124.5%;
+}
