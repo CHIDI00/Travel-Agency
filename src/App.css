@@ -16,7 +16,7 @@ a {
 
 .bg__image {
 	background-image: url("./assets/Decore.png");
-	background-position: right;
+	background-position: top right;
 	background-repeat: no-repeat;
 }
 
