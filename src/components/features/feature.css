@@ -1,0 +1,55 @@
+.taw__feature-card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 0.8rem;
+	width: 16.6875rem;
+	height: 19.625rem;
+	padding: 2.2rem;
+	border-radius: 2.25rem;
+	background: var(--white, #fff);
+	/* box-shadow: 0px 1.85185px 3.14815px 0px rgba(0, 0, 0, 0),
+		0px 8.14815px 6.51852px 0px rgba(0, 0, 0, 0.01),
+		0px 20px 13px 0px rgba(0, 0, 0, 0.01),
+		0px 38.51852px 25.48148px 0px rgba(0, 0, 0, 0.01),
+		0px 64.81481px 46.85185px 0px rgba(0, 0, 0, 0.02),
+		0px 100px 80px 0px rgba(0, 0, 0, 0.02); */
+
+	margin: 0 1.3rem;
+}
+
+.taw__feature-card .first {
+	color: #1e1d4c;
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+
+.taw__feature-card p {
+	color: var(--color-text);
+	text-align: center;
+	font-family: var(--font-link);
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.625rem;
+	text-align: center;
+}
+
+@media screen and (max-width: 1400px) {
+	.taw__feature-card {
+		margin: 1rem 1.3rem;
+		padding: 3rem;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.taw__feature-card {
+		width: 15.6875rem;
+		height: 18.625rem;
+	}
+
+	.taw__feature-card img {
+		margin-bottom: 0.6rem;
+	}
+}

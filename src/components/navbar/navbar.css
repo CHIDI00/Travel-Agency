@@ -145,6 +145,10 @@
 	.taw__navbar {
 		padding: 2rem;
 	}
+	.taw__navbar-links_logo img {
+		width: 6.8rem;
+		height: 2rem;
+	}
 	.taw__navbar-links_btn {
 		display: none;
 	}
