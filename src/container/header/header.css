@@ -2,6 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 7rem 6rem;
 }
 
 .taw__header-container-left {
@@ -151,7 +152,7 @@
 
 @media screen and (max-width: 490px) {
 	.taw__header {
-		padding: 30px 32px;
+		padding: 7rem 3rem;
 	}
 	.taw__header-container-left h4 {
 		font-size: 0.8rem;

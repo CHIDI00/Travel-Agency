@@ -43,13 +43,39 @@
 	}
 }
 
+@media screen and (max-width: 730px) {
+	.taw__feature-card {
+		width: 15rem;
+		height: 18rem;
+	}
+}
+
 @media screen and (max-width: 550px) {
 	.taw__feature-card {
-		width: 15.6875rem;
-		height: 18.625rem;
+		width: 12.5rem;
+		height: 15rem;
+		padding: 1.5rem;
+		margin: 0 1rem;
 	}
 
 	.taw__feature-card img {
-		margin-bottom: 0.6rem;
+		margin-bottom: 0.4rem;
+	}
+
+	.taw__feature-card .first {
+		color: #1e1d4c;
+		font-size: 1rem;
+		font-weight: 600;
+	}
+
+	.taw__feature-card p {
+		color: var(--color-text);
+		text-align: center;
+		font-family: var(--font-link);
+		font-size: 0.8rem;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 1rem;
+		text-align: center;
 	}
 }

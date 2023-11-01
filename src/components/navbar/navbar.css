@@ -2,8 +2,15 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	position: fixed;
 
-	padding: 2rem 6rem;
+	padding: 1rem 6rem;
+	background: #fff;
+	background-image: url("../../assets/Decore.png");
+	background-position: top right;
+	background-repeat: no-repeat;
+	width: 100%;
+	z-index: 100;
 }
 
 .taw__navbar-links {
@@ -143,7 +150,7 @@
 
 @media screen and (max-width: 550px) {
 	.taw__navbar {
-		padding: 2rem;
+		padding: 1rem 2rem;
 	}
 	.taw__navbar-links_logo img {
 		width: 6.8rem;

@@ -31,6 +31,8 @@
 
 .taw__destination-container_card {
 	display: flex;
+	flex-wrap: wrap;
+
 	justify-content: space-around;
 	align-items: center;
 	background-image: url("../../assets/Decore2.png");
@@ -45,6 +47,7 @@
 	justify-content: center;
 	align-items: flex-end;
 	background-repeat: no-repeat;
+	background-size: 100%;
 
 	width: 19.625rem;
 	height: 28.5625rem;
@@ -101,4 +104,40 @@
 	font-size: 1rem;
 	font-weight: 500;
 	line-height: 124.5%;
+}
+
+@media screen and (max-width: 1150px) {
+	.taw__destination {
+		padding: 2rem 4rem;
+	}
+	.taw__destination-card {
+		margin-bottom: 2rem;
+
+		width: 19rem;
+		height: 28rem;
+	}
+}
+
+@media screen and (max-width: 895px) {
+	.taw__destination-card {
+		width: 17rem;
+		height: 24rem;
+	}
+}
+@media screen and (max-width: 838px) {
+	.taw__destination-card {
+		width: 15rem;
+		height: 21rem;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.taw__destination-card {
+		width: 17rem;
+		height: 20rem;
+	}
+
+	.taw__destination-container_content h1 {
+		font-size: 2rem;
+	}
 }

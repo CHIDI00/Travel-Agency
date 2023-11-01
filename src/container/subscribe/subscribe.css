@@ -1,0 +1,211 @@
+.taw__subscribe-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.taw__subscribe {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 2rem 6rem;
+	width: 73.125rem;
+	height: 25.4375rem;
+	border-radius: 8.0625rem 1.25rem 1.25rem 1.25rem;
+	/* opacity: 0.2; */
+	background: #dfd7f98d;
+}
+
+.taw__subscribe img {
+	position: absolute;
+	top: -15px;
+	right: -15px;
+}
+
+.taw__subscribe h1 {
+	color: var(--color-blog);
+	text-align: center;
+	font-family: var(--font-link);
+	font-size: 2.0625rem;
+	font-weight: 600;
+	line-height: 3.375rem;
+}
+
+.taw__subscribe-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 3rem 0;
+}
+
+.taw__subscribe-input_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.input_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 26.3125rem;
+	height: 4.25rem;
+	border-radius: 10px;
+	background: var(--white, #fff);
+	margin-right: 1rem;
+	padding: 0.8rem 2rem;
+}
+
+.input_container input {
+	width: 100%;
+	height: 100%;
+	margin-left: 1rem;
+	outline: none;
+	border: none;
+	font-size: 1rem;
+	background: transparent;
+}
+
+.taw__subscribe-input_container button {
+	width: 11.25rem;
+	height: 4.25rem;
+	flex-shrink: 0;
+	border-radius: 10px;
+	background: var(
+		--gradient,
+		linear-gradient(180deg, #ff946d 0%, #ff7d68 100%)
+	);
+	color: #fff;
+	text-align: center;
+	font-family: var(--font-link);
+	font-size: 1.0825rem;
+	font-weight: 600;
+
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+.taw__subscribe-form .taw__subscribe-form_message {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	gap: 0.4rem;
+}
+.taw__subscribe-form_message p {
+	text-align: left;
+	font-family: var(--font-link);
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+@media screen and (max-width: 900px) {
+	.taw__subscribe {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding: 2rem 4rem;
+		width: 100%;
+	}
+
+	.taw__subscribe h1 {
+		font-size: 1.7rem;
+		line-height: 3rem;
+	}
+
+	.taw__subscribe-form {
+		width: 100%;
+	}
+
+	.taw__subscribe-input_container {
+		width: 100%;
+	}
+
+	.input_container {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.taw__subscribe-container {
+		margin: 4rem 2rem;
+	}
+
+	.taw__subscribe h1 {
+		font-size: 1.7rem;
+		line-height: 2rem;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.taw__subscribe-input_container {
+		flex-direction: column;
+	}
+
+	.input_container {
+		margin-bottom: 1rem;
+		margin-right: 0rem;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.taw__subscribe {
+		padding: 6rem 2rem;
+	}
+
+	.taw__subscribe h1 {
+		font-size: 1.5rem;
+		line-height: 2.1rem;
+	}
+
+	.taw__subscribe-form {
+		margin: 1rem 0;
+	}
+
+	.taw__subscribe-form_message p {
+		font-size: 0.9rem;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.taw__subscribe-container {
+		margin: 4rem 1rem;
+	}
+	.taw__subscribe {
+		border-radius: 5.0625rem 1.25rem 1.25rem 1.25rem;
+	}
+
+	.taw__subscribe img {
+		position: absolute;
+		top: -12px;
+		right: -12px;
+		width: 3rem;
+		height: 3rem;
+	}
+	.taw__subscribe h1 {
+		font-size: 1.2rem;
+		line-height: 2rem;
+	}
+
+	.input_container {
+		padding: 0.5rem 0.7rem;
+	}
+
+	.taw__subscribe {
+		padding: 6rem 1rem;
+	}
+
+	.taw__subscribe-input_container button {
+		width: 9rem;
+		height: 3.5rem;
+
+		font-size: 1rem;
+		font-weight: 600;
+	}
+}

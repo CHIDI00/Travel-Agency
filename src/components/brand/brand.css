@@ -1,0 +1,41 @@
+.taw__brand {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	/* gap: 5rem; */
+	padding: 0rem 6rem;
+}
+
+.taw__brand img {
+	mix-blend-mode: luminosity;
+}
+
+.taw__brand div {
+	flex: 1;
+	max-width: 150px;
+	min-width: 120px;
+	margin: 1rem;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.taw__brand div:nth-child(3) {
+	padding: 0 0.7rem;
+	border-radius: 0.625rem;
+	background: #fff;
+	box-shadow: 0px 1.85185px 3.14815px 0px rgba(0, 0, 0, 0),
+		0px 8.14815px 6.51852px 0px rgba(0, 0, 0, 0.01),
+		0px 20px 13px 0px rgba(0, 0, 0, 0.01),
+		0px 38.51852px 25.48148px 0px rgba(0, 0, 0, 0.01),
+		0px 64.81481px 46.85185px 0px rgba(0, 0, 0, 0.02),
+		0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+
+@media screen and (max-width: 550px) {
+	.taw__brand {
+		padding: 0rem 1.5rem;
+	}
+}

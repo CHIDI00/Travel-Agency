@@ -1,3 +1,9 @@
+/* Reveal behaviour */
+.reveal {
+	opacity: 0;
+	transform: translateY(8rem);
+}
+
 .taw__category {
 	display: flex;
 	justify-content: center;

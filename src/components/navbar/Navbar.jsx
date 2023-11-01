@@ -49,12 +49,14 @@ const Navbar = function () {
 								size={27}
 								color="#000"
 								onClick={() => setToggleMenu(false)}
+								style={{ cursor: "pointer" }}
 							/>
 						) : (
 							<RiMenu3Line
 								size={27}
 								color="#000"
 								onClick={() => setToggleMenu(true)}
+								style={{ cursor: "pointer" }}
 							/>
 						)}
 
@@ -71,7 +73,7 @@ const Navbar = function () {
 										<select>
 											<option title="EN">EN</option>
 											<option title="SP">SP</option>
-											<option title="AR">AR</option>
+											<option title="JPN">JPN</option>
 										</select>
 									</div>
 								</div>
