@@ -6,7 +6,7 @@ import "./header.css";
 
 const Header = function () {
 	return (
-		<div className="taw__header section__padding">
+		<div className="taw__header section__padding" id="header">
 			<div className="taw__header-container-left">
 				<h4>Best Destinations around the world</h4>
 				<h1>Travel, enjoy and live a new and full life</h1>
@@ -18,7 +18,11 @@ const Header = function () {
 				<div className="taw__header-container_btn">
 					<button type="button">Find out more</button>
 					<img src={playBtn} alt="play" />
-					<p>Play Demo</p>
+					<p>
+						<a href="https://youtube.com/shorts/I4GIJEeOM6M?si=Ar3HYSPv-k0zGh4o">
+							Play Demo
+						</a>
+					</p>
 				</div>
 			</div>
 

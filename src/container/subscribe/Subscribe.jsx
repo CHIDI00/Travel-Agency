@@ -10,32 +10,39 @@ const Subscribe = function () {
 	const form = function (e) {
 		e.preventDefault();
 
-		setEmail("");
-		handleMessage();
+		setTimeout(() => {
+			setEmail("");
+			handleMessage();
+		}, 2000);
 	};
 
 	const handleSubmit = () => {
-		setEmail("");
-		handleMessage();
+		setTimeout(() => {
+			setEmail("");
+			handleMessage();
+		}, 2000);
 	};
 
 	const handleMessage = () => {
 		if (!email.includes("@gmail.com") || email.trim() === "") {
-			return setMessage(
+			setMessage(
 				<p style={{ color: "red" }}>Please enter a valid email address</p>
 			);
 		} else {
-			return setMessage(
+			setMessage(
 				<>
 					<RiCheckboxCircleFill color="green" size={22} />
-					<p>Email has been received</p>
+					<p>Email has been received for news and update</p>
 				</>
 			);
+			setTimeout(() => {
+				setMessage("");
+			}, 5000);
 		}
 	};
 
 	return (
-		<div className="taw__subscribe-container section__margin">
+		<div className="taw__subscribe-container section__margin" id="subscribe">
 			<div className="taw__subscribe">
 				<h1>
 					Subscribe to get information, latest news and other interesting offers

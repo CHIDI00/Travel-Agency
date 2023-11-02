@@ -7,16 +7,19 @@ const Menu = () => {
 	return (
 		<>
 			<p>
+				<a href="#header">Home</a>
+			</p>
+			<p>
 				<a href="#category">Caregory</a>
 			</p>
 			<p>
 				<a href="#destination">Destination</a>
 			</p>
 			<p>
-				<a href="#flights">Flights</a>
+				<a href="#book">Bookings</a>
 			</p>
 			<p>
-				<a href="#book">Bookings</a>
+				<a href="#subscribe">Subscribe</a>
 			</p>
 		</>
 	);

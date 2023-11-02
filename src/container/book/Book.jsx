@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { RiHeart3Line } from "react-icons/ri";
 import "./book.css";
 import {
@@ -12,6 +12,7 @@ import {
 	sendIcon,
 	homeIcon,
 } from "./import";
+import { RiHeart3Fill } from "react-icons/ri";
 
 const stepsData = [
 	{
@@ -35,8 +36,10 @@ const stepsData = [
 ];
 
 const Book = function () {
+	const [toggleLove, setToggleLove] = useState(false);
+
 	return (
-		<div className="taw__book section__padding">
+		<div className="taw__book section__padding" id="book">
 			<div className="taw__book-container_left">
 				<p>Easy and Fast</p>
 				<h1>Book your next trip in 3 easy steps</h1>
@@ -75,7 +78,18 @@ const Book = function () {
 							<img src={homeIcon} alt="home" />
 							<p>24 people going</p>
 						</div>
-						<RiHeart3Line />
+						{toggleLove ? (
+							<RiHeart3Line
+								style={{ cursor: "pointer" }}
+								onClick={() => setToggleLove(false)}
+							/>
+						) : (
+							<RiHeart3Fill
+								style={{ cursor: "pointer" }}
+								color="red"
+								onClick={() => setToggleLove(true)}
+							/>
+						)}
 					</div>
 					<div className="taw__book-container_small">
 						<img src={bookTrip2} alt="trip" />
