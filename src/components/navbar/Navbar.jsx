@@ -42,8 +42,8 @@ const Navbar = function () {
 						<button type="button">Sign up</button>
 						<select>
 							<option title="EN">EN</option>
-							<option title="SP">SP</option>
-							<option title="AR">AR</option>
+							<option title="SPN">SPN</option>
+							<option title="JPN">JPN</option>
 						</select>
 					</div>
 					<div className="taw__navbar-menu">
