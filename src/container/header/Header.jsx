@@ -7,7 +7,7 @@ import "./header.css";
 const Header = function () {
 	return (
 		<div className="taw__header section__padding" id="header">
-			<div className="taw__header-container-left">
+			<div className="taw__header-container-left" data-aos="zoom-out">
 				<h4>Best Destinations around the world</h4>
 				<h1>Travel, enjoy and live a new and full life</h1>
 				<p>
@@ -27,8 +27,8 @@ const Header = function () {
 			</div>
 
 			<div className="taw__header-image">
-				<img src={plane} alt="plane" />
-				<img src={traveller} alt="traveller" />
+				<img src={plane} alt="plane" data-aos="zoom-out" />
+				<img src={traveller} alt="traveller" data-aos="zoom-out" />
 			</div>
 		</div>
 	);

@@ -1,5 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import {
 	Book,
@@ -14,6 +17,13 @@ import {
 import { Brand, Navbar } from "./components";
 
 function App() {
+	useEffect(() => {
+		AOS.init({
+			duration: 1000,
+			once: true,
+		});
+	}, []);
+
 	return (
 		<div className="App">
 			<div className="bg__image">

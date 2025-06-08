@@ -46,7 +46,7 @@ const Book = function () {
 
 				<div className="taw__book-container_3step">
 					{stepsData.map((step) => (
-						<div className="taw__book-content_step">
+						<div className="taw__book-content_step" data-aos="fade-up">
 							<img src={step.icon} alt="icon" />
 							<div className="taw__book-content">
 								<p>{step.step}</p>
@@ -58,7 +58,7 @@ const Book = function () {
 			</div>
 
 			<div className="taw__book-container_right">
-				<div className="taw__book-container_big">
+				<div className="taw__book-container_big" data-aos="fade-up">
 					<img src={bookTrip} alt="trip" className="trip" />
 					<p className="location">Trip To Greece</p>
 					<p className="by">14-29 June by Robbin Joseph</p>
@@ -91,7 +91,7 @@ const Book = function () {
 							/>
 						)}
 					</div>
-					<div className="taw__book-container_small">
+					<div className="taw__book-container_small" data-aos="fade-left">
 						<img src={bookTrip2} alt="trip" />
 						<div className="taw__book-small_content">
 							<p>Ongoing</p>

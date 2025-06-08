@@ -50,17 +50,17 @@ const Testimonial = function () {
 	return (
 		<div className="taw__testimonial section__padding">
 			<div className="taw__testimonial-container_left">
-				<p>TESTIMONIALS</p>
-				<h1>What Peaple Say About Us.</h1>
+				<p data-aos="fade-up">TESTIMONIALS</p>
+				<h1 data-aos="fade-up">What Peaple Say About Us.</h1>
 
-				<div className="taw__testimonial-container_dot">
+				<div className="taw__testimonial-container_dot" data-aos="fade-up">
 					<div className="dot"></div>
 					<div className="dot"></div>
 					<div className="dot"></div>
 				</div>
 			</div>
 
-			<div className="taw__testimonial-container_right">
+			<div className="taw__testimonial-container_right" data-aos="fade-up">
 				<button className="big_screen-button" onClick={prevSlide}>
 					<RiArrowLeftLine />
 				</button>

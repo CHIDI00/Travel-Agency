@@ -8,13 +8,14 @@ import navigation from "../../assets/navigation.png";
 const Destination = function () {
 	return (
 		<div className="taw__destination section__padding" id="destination">
-			<div className="taw__destination-container_content">
+			<div className="taw__destination-container_content" data-aos="fade-up">
 				<p>Top selling</p>
 				<h1>Top Destinations</h1>
 			</div>
 
 			<div className="taw__destination-container_card">
 				<div
+					data-aos="fade-up"
 					className="taw__destination-card"
 					style={{ backgroundImage: `url('${destination01}')` }}
 				>
@@ -31,6 +32,7 @@ const Destination = function () {
 				</div>
 
 				<div
+					data-aos="fade-up"
 					className="taw__destination-card"
 					style={{ backgroundImage: `url('${destination02}')` }}
 				>
@@ -47,6 +49,7 @@ const Destination = function () {
 				</div>
 
 				<div
+					data-aos="fade-up"
 					className="taw__destination-card"
 					style={{ backgroundImage: `url('${destination03}')` }}
 				>

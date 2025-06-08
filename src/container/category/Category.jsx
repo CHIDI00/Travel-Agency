@@ -30,8 +30,8 @@ const Category = function () {
 	return (
 		<div className="taw__category section__padding" id="category">
 			<div className="taw__category-container">
-				<p>CATEGORY</p>
-				<h1>We Offer Best Services</h1>
+				<p data-aos="fade-up">CATEGORY</p>
+				<h1 data-aos="fade-up">We Offer Best Services</h1>
 			</div>
 			<div className="taw__category-container_card">
 				{cardData.map((card) => (
